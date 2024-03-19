@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    background-color: #F5D3AB;
+  }
+
+  .header-big h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    margin-left: 135px;
+  }
+
+  .header-small h3 {
+    margin-left: 135px;
+  }
+
+  .header-small h3,
+  .bakery h5,
+  .Pastry h5,
+  .Sweet h5,
+  .Pastry h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+  }
+
+  .bakery h4,
+  .Pastry h4,
+  .Sweet h4,
+  .Pastry h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .bakery p,
+  .Pastry p,
+  .Sweet p,
+  .Pastry p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .Explore-button input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.71px;
+    display: block;
+    margin: auto;
+    background-color: #F5D3AB;
+    border: 1px solid black;
+    padding: 10px 40px;
+  }
