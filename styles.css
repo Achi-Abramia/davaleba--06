@@ -1,60 +1,140 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    background-color: #F5D3AB;
-  }
+body {
+  background-color: #f5d3ab;
+}
 
-  .header-big h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 64px;
-    margin-left: 135px;
-  }
+.header-big h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  margin-left: 135px;
+  margin-bottom: 60px;
+}
 
-  .header-small h3 {
-    margin-left: 135px;
-  }
+.header-small h3 {
+  margin-left: 135px;
+  margin-top: 30px;
+}
 
-  .header-small h3,
-  .bakery h5,
-  .Pastry h5,
-  .Sweet h5,
-  .Pastry h5 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 3px;
-  }
+.product-boxes {
+  width: 1300px;
+  margin: auto;
+}
 
-  .bakery h4,
-  .Pastry h4,
-  .Sweet h4,
-  .Pastry h4 {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-  }
+.product-boxes > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
 
-  .bakery p,
-  .Pastry p,
-  .Sweet p,
-  .Pastry p {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-  }
+.homemade-bread img {
+  width: 770px;
+  height: 448px;
+}
 
-  .Explore-button input {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 23.71px;
-    display: block;
-    margin: auto;
-    background-color: #F5D3AB;
-    border: 1px solid black;
-    padding: 10px 40px;
-  }
+.homemade-bread {
+  width: 770px;
+  height: 448px;
+}
+
+.bakery,
+.pastry,
+.sweet,
+.pastry-brioche {
+  width: 370px;
+  height: 448px;
+  background-color: white;
+}
+
+.bakery img,
+.pastry img,
+.sweet img,
+.pastry-brioche img {
+  width: 370px;
+  height: 304px;
+}
+
+.header-small h3,
+.bakery h5,
+.pastry h5,
+.sweet h5,
+.pastry-brioche h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+}
+
+.bakery h4,
+.pastry h4,
+.sweet h4,
+.pastry-brioche h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.bakery p,
+.pastry p,
+.sweet p,
+.pastry-brioche p {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.Explore-button input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.71px;
+  display: block;
+  margin: auto;
+  background-color: #f5d3ab;
+  border: 1px solid black;
+  padding: 10px 40px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+.homemade-bread {
+  position: relative;
+}
+
+.homemade-bread .text {
+  position: absolute;
+  bottom: 0;
+}
+
+.homemade-bread .text h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-left: 30px;
+}
+
+.homemade-bread .text h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-left: 30px;
+}
+
+.homemade-bread .text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff80;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
